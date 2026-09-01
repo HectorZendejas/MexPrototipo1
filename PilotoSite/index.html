@@ -4,26 +4,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>mex — Soluções digitais pra mexer com o seu negócio</title>
-<meta name="description" content="mex: agência de soluções digitais especializada em criação de sites, gestão de redes, tráfego, copywriting e design. Começamos com advogados, hoje mexemos com qualquer negócio.">
+<meta name="description" content="MEX: marketing e tecnologia para construir soluções digitais completas. Desenvolvimento de sites, gestão de redes, tráfego pago, copywriting e design em uma mesma operação.">
 
-<!-- Google Fonts: Fredoka (impacto/Block Berthold), Playfair Display (editorial), Poppins (Gilroy fallback / UI) -->
+<!-- Google Fonts: Unbounded (impacto, tipografia bold/geométrica da marca), Poppins (Gilroy fallback / UI) -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<link rel="icon" href="Imagens/Logo%20nova.PNG">
+<link rel="icon" href="Imagens/LogoFinalNovo.jpg">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-<div class="scroll-progress" aria-hidden="true">
-  <div class="scroll-progress-track"></div>
-  <img src="Imagens/mex-icon.png" alt="" class="scroll-progress-dino">
-</div>
-
-<div class="corner-mascot" id="cornerMascot" aria-hidden="true">
-  <img src="Imagens/mex-icon.png" alt="" class="corner-mascot-icon">
-</div>
 
 <a class="skip-link" href="#main">Pular para o conteúdo</a>
 
@@ -31,25 +22,15 @@
 <header class="site-header" id="topo">
   <div class="container header-inner">
     <a href="#topo" class="brand" aria-label="mex — início">
-      <span class="brand-anim">
-        <span class="brand-intro">
-          <span class="brand-burst" aria-hidden="true"></span>
-          <img src="Imagens/mex-icon.png" alt="" class="brand-icon">
-        </span>
-        <span class="brand-word" aria-hidden="true">
-          <span class="brand-letter" style="--i:0">m</span>
-          <span class="brand-letter" style="--i:1">e</span>
-          <span class="brand-letter" style="--i:2">x</span>
-        </span>
-      </span>
+      <img src="Imagens/mex-wordmark.png" alt="" class="brand-wordmark">
     </a>
 
     <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
       <ul>
         <li><a href="#o-que-fazemos">O que fazemos</a></li>
         <li><a href="#diferencial">Diferencial</a></li>
-        <li><a href="#sobre">Sobre nós</a></li>
         <li><a href="#contato">Contato</a></li>
+        <li><a href="#sobre">Sobre nós</a></li>
       </ul>
     </nav>
 
@@ -65,148 +46,75 @@
 <main id="main">
 
   <!-- ===================== HERO ===================== -->
-  <section class="hero section-purple" aria-labelledby="hero-title">
-    <div class="hero-mascot" aria-hidden="true">
-      <img src="Imagens/mex-icon.png" alt="" class="hero-bg-icon">
-    </div>
-    <div class="hero-scrim" aria-hidden="true"></div>
+  <section class="hero section-dark" aria-labelledby="hero-title">
+    <div class="texture-cloud" aria-hidden="true"></div>
+    <div class="texture-grid" aria-hidden="true"></div>
 
     <div class="container hero-inner">
-      <p class="eyebrow fade-in">soluções digitais</p>
-      <h1 id="hero-title" class="hero-title fade-in">A gente mexe com ideias<br>e gera resultado</h1>
+      <h1 id="hero-title" class="hero-title reveal-text"><span class="reveal-text-inner">Estratégia, tecnologia e comunicação para colocar ideias em prática.</span></h1>
       <p class="hero-subtitle fade-in">
-        A mex cuida do marketing do seu negócio: da estratégia ao resultado,
-        com soluções digitais sob medida pra cada desafio.
+        A MEX trabalha com marketing e tecnologia para construir soluções digitais
+        completas. Desenvolvemos sites, criamos identidades e conteúdos, gerenciamos
+        campanhas e estruturamos a presença de empresas no digital.
       </p>
       <div class="hero-actions fade-in">
-        <a href="#contato" class="btn btn-cta btn-lg">Vamos mexer</a>
+        <a href="#contato" class="btn btn-cta btn-lg">Vamos conversar</a>
         <a href="#o-que-fazemos" class="btn btn-ghost btn-lg">O que fazemos</a>
       </div>
     </div>
   </section>
 
   <!-- ===================== O QUE A GENTE FAZ ===================== -->
-  <section class="section-purple orbit-section" id="o-que-fazemos" aria-labelledby="orbit-title">
+  <section class="section-dark services-section" id="o-que-fazemos" aria-labelledby="services-title">
     <div class="texture-cloud" aria-hidden="true"></div>
     <div class="texture-grid" aria-hidden="true"></div>
 
     <div class="container">
-      <div class="orbit-wrap fade-in">
+      <div class="services fade-in">
+        <h2 id="services-title" class="services-title reveal-text"><span class="reveal-text-inner">O que a gente faz?</span></h2>
+        <p class="services-lead">
+          Do código ao anúncio, cada parte do digital precisa cumprir uma função.
+          Por isso, reunimos desenvolvimento, mídia, conteúdo e criação em uma
+          mesma operação.
+        </p>
 
-        <!-- Desktop / tablet: radial orbit layout -->
-        <div class="orbit" aria-hidden="false">
-          <svg class="orbit-arrows" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
-            <g class="orbit-arrow" style="--d:0s">
-              <path class="orbit-path" d="M45.55,37.78 Q47.99,27.09 50,18"></path>
-              <path class="orbit-arrowhead" transform="translate(50,18) rotate(-77.55)" d="M0,0 L-2.8,-1.4 L-2.8,1.4 Z"></path>
-            </g>
-            <g class="orbit-arrow" style="--d:.08s">
-              <path class="orbit-path" d="M58.36,40.04 Q68.84,36.80 77.71,34"></path>
-              <path class="orbit-arrowhead" transform="translate(77.71,34) rotate(-17.52)" d="M0,0 L-2.8,-1.4 L-2.8,1.4 Z"></path>
-            </g>
-            <g class="orbit-arrow" style="--d:.16s">
-              <path class="orbit-path" d="M62.81,52.26 Q70.84,59.73 77.71,66"></path>
-              <path class="orbit-arrowhead" transform="translate(77.71,66) rotate(42.42)" d="M0,0 L-2.8,-1.4 L-2.8,1.4 Z"></path>
-            </g>
-            <g class="orbit-arrow" style="--d:.24s">
-              <path class="orbit-path" d="M54.45,62.22 Q52.01,72.91 50,82"></path>
-              <path class="orbit-arrowhead" transform="translate(50,82) rotate(102.45)" d="M0,0 L-2.8,-1.4 L-2.8,1.4 Z"></path>
-            </g>
-            <g class="orbit-arrow" style="--d:.32s">
-              <path class="orbit-path" d="M41.64,59.96 Q31.16,63.20 22.29,66"></path>
-              <path class="orbit-arrowhead" transform="translate(22.29,66) rotate(162.48)" d="M0,0 L-2.8,-1.4 L-2.8,1.4 Z"></path>
-            </g>
-            <g class="orbit-arrow" style="--d:.4s">
-              <path class="orbit-path" d="M37.19,47.74 Q29.16,40.27 22.29,34"></path>
-              <path class="orbit-arrowhead" transform="translate(22.29,34) rotate(-137.58)" d="M0,0 L-2.8,-1.4 L-2.8,1.4 Z"></path>
-            </g>
-          </svg>
-
-          <h2 id="orbit-title" class="orbit-title">O que a<br>gente faz?</h2>
-
-          <ul class="orbit-items" role="list">
-            <li>
-              <button type="button" class="orbit-item orbit-item--top" style="--x:50%; --y:6%;" aria-expanded="false">
-                <span class="orbit-item-label">Desenvolvimento<br>de sites</span>
-                <span class="orbit-tooltip">Criamos sites rápidos, modernos e pensados pra converter visitantes em clientes.</span>
-              </button>
-            </li>
-            <li>
-              <button type="button" class="orbit-item orbit-item--top" style="--x:88.1%; --y:28%;" aria-expanded="false">
-                <span class="orbit-item-label">Gestão<br>de redes</span>
-                <span class="orbit-tooltip">Cuidamos do dia a dia das suas redes sociais, do planejamento à publicação.</span>
-              </button>
-            </li>
-            <li>
-              <button type="button" class="orbit-item orbit-item--bottom" style="--x:88.1%; --y:72%;" aria-expanded="false">
-                <span class="orbit-item-label">Tráfego</span>
-                <span class="orbit-tooltip">Gerenciamos campanhas pagas pra levar o público certo até você.</span>
-              </button>
-            </li>
-            <li>
-              <button type="button" class="orbit-item orbit-item--bottom" style="--x:50%; --y:94%;" aria-expanded="false">
-                <span class="orbit-item-label">Copywrite</span>
-                <span class="orbit-tooltip">Escrevemos textos que comunicam com clareza e vendem sem parecer forçado.</span>
-              </button>
-            </li>
-            <li>
-              <button type="button" class="orbit-item orbit-item--bottom" style="--x:11.9%; --y:72%;" aria-expanded="false">
-                <span class="orbit-item-label">Design</span>
-                <span class="orbit-tooltip">Damos identidade visual e cara profissional pra sua marca.</span>
-              </button>
-            </li>
-            <li>
-              <button type="button" class="orbit-item orbit-item--top" style="--x:11.9%; --y:28%;" aria-expanded="false">
-                <span class="orbit-item-label">Análise de<br>resultados</span>
-                <span class="orbit-tooltip">Acompanhamos métricas e dados pra guiar cada decisão de marketing com precisão.</span>
-              </button>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Mobile: simple card grid, same 6 services -->
-        <div class="orbit-mobile">
-          <h2 class="orbit-title orbit-title--mobile">O que a gente faz?</h2>
-          <ul class="service-cards" role="list">
-            <li>
-              <button type="button" class="service-card" aria-expanded="false">
-                <span class="service-card-top"><span class="service-arrow" aria-hidden="true">↗</span>Desenvolvimento de sites</span>
-                <span class="service-desc">Criamos sites rápidos, modernos e pensados pra converter visitantes em clientes.</span>
-              </button>
-            </li>
-            <li>
-              <button type="button" class="service-card" aria-expanded="false">
-                <span class="service-card-top"><span class="service-arrow" aria-hidden="true">↗</span>Gestão de redes</span>
-                <span class="service-desc">Cuidamos do dia a dia das suas redes sociais, do planejamento à publicação.</span>
-              </button>
-            </li>
-            <li>
-              <button type="button" class="service-card" aria-expanded="false">
-                <span class="service-card-top"><span class="service-arrow" aria-hidden="true">↗</span>Tráfego</span>
-                <span class="service-desc">Gerenciamos campanhas pagas pra levar o público certo até você.</span>
-              </button>
-            </li>
-            <li>
-              <button type="button" class="service-card" aria-expanded="false">
-                <span class="service-card-top"><span class="service-arrow" aria-hidden="true">↗</span>Copywrite</span>
-                <span class="service-desc">Escrevemos textos que comunicam com clareza e vendem sem parecer forçado.</span>
-              </button>
-            </li>
-            <li>
-              <button type="button" class="service-card" aria-expanded="false">
-                <span class="service-card-top"><span class="service-arrow" aria-hidden="true">↗</span>Design</span>
-                <span class="service-desc">Damos identidade visual e cara profissional pra sua marca.</span>
-              </button>
-            </li>
-            <li>
-              <button type="button" class="service-card" aria-expanded="false">
-                <span class="service-card-top"><span class="service-arrow" aria-hidden="true">↗</span>Análise de resultados</span>
-                <span class="service-desc">Acompanhamos métricas e dados pra guiar cada decisão de marketing com precisão.</span>
-              </button>
-            </li>
-          </ul>
-        </div>
-
+        <ul class="services-grid" role="list">
+          <li class="service-topic">
+            <span class="service-topic-index">01</span>
+            <h3 class="service-topic-title">Desenvolvimento de sites</h3>
+            <p class="service-topic-desc">Criamos sites rápidos, responsivos e fáceis de navegar, do planejamento ao desenvolvimento. Estrutura, UX, SEO, performance e adaptação para diferentes dispositivos fazem parte do projeto.</p>
+          </li>
+          <li class="service-topic">
+            <span class="service-topic-index">02</span>
+            <h3 class="service-topic-title">Gestão de redes sociais</h3>
+            <p class="service-topic-desc">Criamos e organizamos a comunicação da marca nas redes, com planejamento de conteúdo, direção criativa, produção, publicação e acompanhamento do que realmente gera resposta.</p>
+          </li>
+          <li class="service-topic">
+            <span class="service-topic-index">03</span>
+            <h3 class="service-topic-title">Tráfego pago</h3>
+            <p class="service-topic-desc">Gerenciamos campanhas no Instagram e no Google, trabalhando segmentação, criativos, orçamento, testes e otimizações. Acompanhamos os dados para entender o que está trazendo resultado e onde o investimento pode ser melhor aproveitado.</p>
+          </li>
+          <li class="service-topic">
+            <span class="service-topic-index">04</span>
+            <h3 class="service-topic-title">Google Business</h3>
+            <p class="service-topic-desc">Cuidamos da presença da empresa no Google Business Profile para melhorar sua descoberta nas buscas e no Maps. Organização das informações, categorias, fotos, avaliações e acompanhamento da presença local fazem parte do trabalho.</p>
+          </li>
+          <li class="service-topic">
+            <span class="service-topic-index">05</span>
+            <h3 class="service-topic-title">Copywriting</h3>
+            <p class="service-topic-desc">Escrevemos para diferentes pontos de contato da marca: sites, anúncios, redes sociais e páginas de venda. O foco é transformar informação em uma comunicação clara, convincente e adequada ao público.</p>
+          </li>
+          <li class="service-topic">
+            <span class="service-topic-index">06</span>
+            <h3 class="service-topic-title">Design</h3>
+            <p class="service-topic-desc">Criamos identidades visuais, peças, apresentações e materiais para campanhas e canais digitais. O design precisa funcionar antes de simplesmente parecer bonito.</p>
+          </li>
+          <li class="service-topic service-topic--wide">
+            <span class="service-topic-index">07</span>
+            <h3 class="service-topic-title">Soluções digitais</h3>
+            <p class="service-topic-desc">Nem todo projeto cabe em um serviço pronto. Desenvolvemos páginas, ferramentas e estruturas digitais de acordo com a necessidade do negócio, conectando tecnologia, experiência e objetivo.</p>
+          </li>
+        </ul>
       </div>
     </div>
   </section>
@@ -214,84 +122,69 @@
   <!-- ===================== DIFERENCIAL ===================== -->
   <section class="section-light" id="diferencial" aria-labelledby="diferencial-title">
     <div class="container">
-      <p class="eyebrow eyebrow--dark fade-in">por que a mex</p>
-      <h2 id="diferencial-title" class="section-title fade-in">Especialistas de origem,<br>generalistas por vocação</h2>
+      <p class="eyebrow eyebrow--dark fade-in">por que a MEX</p>
+      <h2 id="diferencial-title" class="section-title reveal-text"><span class="reveal-text-inner">Especialistas de origem, generalistas por vocação.</span></h2>
       <p class="section-lead fade-in">
-        Começamos cuidando do marketing de advogados, um mercado exigente, técnico
-        e pouco tolerante a amadorismo. Hoje aplicamos essa régua de exigência pra
-        mexer com qualquer tipo de negócio.
+        A MEX nasceu da vontade de aproximar áreas que normalmente são contratadas
+        separadamente. Um site influencia o marketing. O marketing influencia o
+        tráfego. O tráfego gera dados que podem mudar a comunicação.
       </p>
+      <p class="section-lead fade-in">Quando essas partes conversam, fica mais fácil tomar decisões melhores.</p>
 
-      <div class="stats fade-in">
-        <div class="stat">
-          <p class="stat-value stat-value--word">Advocacia</p>
-          <p class="stat-desc">O mercado que nos ensinou o que realmente gera autoridade e clientes — nosso ponto de partida.</p>
-        </div>
-        <div class="stat">
-          <p class="stat-value" data-count-to="10" data-suffix="+">0</p>
-          <p class="stat-desc">Anos de experiência criativa do Lucas em comunicação, design e produção audiovisual.</p>
-        </div>
-        <div class="stat">
-          <p class="stat-value" data-count-to="3" data-suffix="">0</p>
-          <p class="stat-desc">Marcas farmacêuticas globais — Nestlé, JNJ e Pfizer — onde já aplicamos inteligência artificial antes da mex.</p>
-        </div>
-      </div>
+      <ul class="pillars-grid fade-in" role="list">
+        <li class="pillar">
+          <h3 class="pillar-title">Tecnologia que funciona</h3>
+          <p class="pillar-desc">Desenvolvemos pensando no uso real. Performance, responsividade, estrutura, SEO, manutenção e experiência fazem parte da construção, não são detalhes para resolver depois.</p>
+        </li>
+        <li class="pillar">
+          <h3 class="pillar-title">Mídia baseada em dados</h3>
+          <p class="pillar-desc">Temos experiência na gestão de campanhas no Instagram e Google, acompanhando métricas, testando diferentes abordagens e otimizando investimentos a partir dos resultados.</p>
+        </li>
+        <li class="pillar">
+          <h3 class="pillar-title">Presença local</h3>
+          <p class="pillar-desc">Também trabalhamos com Google Business, ajudando empresas a organizar sua presença nas buscas e no Maps e a transformar pesquisas locais em oportunidades reais.</p>
+        </li>
+        <li class="pillar">
+          <h3 class="pillar-title">Criação com repertório</h3>
+          <p class="pillar-desc">Design, audiovisual, copy e comunicação fazem parte da nossa base. Isso nos permite pensar conceito e execução sem depender de soluções prontas.</p>
+        </li>
+        <li class="pillar">
+          <h3 class="pillar-title">Experiência prática</h3>
+          <p class="pillar-desc">Já aplicamos inteligência artificial em projetos para 3 marcas farmacêuticas globais: Nestlé, J&amp;J e Pfizer.</p>
+        </li>
+      </ul>
     </div>
   </section>
 
-  <!-- ===================== SOBRE NÓS ===================== -->
-  <section class="section-purple" id="sobre" aria-labelledby="sobre-title">
+  <!-- ===================== MISSÃO ===================== -->
+  <section class="section-dark" id="missao" aria-labelledby="missao-title">
     <div class="texture-cloud" aria-hidden="true"></div>
     <div class="texture-grid" aria-hidden="true"></div>
 
     <div class="container">
       <p class="eyebrow fade-in">quem mexe</p>
-      <h2 id="sobre-title" class="section-title section-title--onpurple fade-in">Sobre nós</h2>
+      <h2 id="missao-title" class="section-title section-title--onpurple reveal-text"><span class="reveal-text-inner">A MEX nasceu para juntar<br>o que já deveria estar junto.</span></h2>
 
-      <div class="founders fade-in">
-        <article class="founder-card">
-          <div class="founder-photo-wrap">
-            <img class="founder-photo" src="Imagens/Hector-cropped.jpg" alt="Foto de Hector, sócio da mex">
-          </div>
-          <div class="founder-card-body">
-            <h3 class="founder-name">Hector</h3>
-            <p class="founder-role">Sócio-fundador</p>
-            <div class="founder-bio">
-              <p>Hector é o sócio técnico por trás da mex. Formado em Ciência da Computação pela UNIFOR, já aplicou inteligência artificial a negócios de peso, atuando com gigantes da indústria farmacêutica como Nestlé, JNJ e Pfizer, experiência que trouxe uma régua alta de exigência para dentro da mex. Viveu entre Cidade do México, Estados Unidos e Brasil antes de fixar raízes em Fortaleza, e é fluente em três idiomas, o que se reflete na forma como enxerga cada projeto: sempre com mais de uma perspectiva e mais de um caminho possível para chegar no resultado certo.</p>
-              <p>Começou criando sites para advogados, entendendo de perto as dores de quem depende de presença digital para conquistar confiança. Foi ali que aprendeu o que realmente importa: clareza, credibilidade e resultado, os mesmos padrões que hoje aplica a negócios de qualquer porte e setor.</p>
-            </div>
-          </div>
-        </article>
-
-        <article class="founder-card">
-          <div class="founder-photo-wrap">
-            <img class="founder-photo" src="Imagens/Lucas-cropped.jpg" alt="Foto de Lucas, sócio da mex">
-          </div>
-          <div class="founder-card-body">
-            <h3 class="founder-name">Lucas</h3>
-            <p class="founder-role">Sócio-fundador</p>
-            <div class="founder-bio">
-              <p>Lucas é formado em Direito e pós-graduado em Direito Digital, mas construiu sua verdadeira carreira na área criativa, algo que já faz informalmente há mais de 10 anos e profissionalmente desde antes de se formar. Atua com comunicação, design, produção audiovisual e marketing de performance, transitando entre estratégia, mídia paga, direção criativa, criação visual, roteirização, produção e edição de vídeos conforme a necessidade de cada projeto.</p>
-              <p>Já participou de campanhas de ponta a ponta, do planejamento à definição da linguagem visual, produção dos materiais e gestão da mídia, incluindo conteúdos e perfis com alcance e volume de interações na casa dos milhões. Tem experiência contínua principalmente nos setores de construção civil, saúde e hotelaria, desenvolvendo estratégias de comunicação, campanhas e materiais comerciais recorrentes para empresas desses mercados.</p>
-              <p>Na mex, Lucas é quem transforma estratégia em imagem: a mente por trás da linguagem visual, da narrativa e da execução criativa de cada projeto.</p>
-            </div>
-          </div>
-        </article>
+      <div class="about-copy fade-in">
+        <p>Percebemos que muitas empresas acabam dividindo o digital entre vários fornecedores: alguém faz o site, outra pessoa cuida das redes, outra roda os anúncios e outra resolve a parte técnica.</p>
+        <p>A MEX nasceu para fazer diferente.</p>
+        <p>Somos uma operação enxuta e multidisciplinar, com competências que se complementam. Desenvolvemos, criamos, anunciamos e analisamos dentro da mesma lógica.</p>
+        <p>Não existe uma solução MEX pronta para todo mundo. Cada projeto começa entendendo o negócio, o problema e o que precisa ser construído.</p>
       </div>
     </div>
   </section>
 
   <!-- ===================== CONTATO ===================== -->
-  <section class="section-purple contact-section" id="contato" aria-labelledby="contato-title">
+  <section class="section-dark contact-section" id="contato" aria-labelledby="contato-title">
     <div class="texture-cloud" aria-hidden="true"></div>
     <div class="texture-grid" aria-hidden="true"></div>
 
     <div class="container contact-inner">
       <div class="contact-copy fade-in">
-        <!-- <p class="eyebrow">mexa com a gente</p> -->
-        <h2 id="contato-title" class="section-title section-title--onpurple">Bora marcar<br>uma conversa?</h2>
+        <h2 id="contato-title" class="section-title section-title--onpurple reveal-text"><span class="reveal-text-inner">Bora conversar?</span></h2>
         <p class="section-lead section-lead--onpurple">
-          Conta pra gente o desafio do seu negócio e bora mexer nisso.
+          Se você precisa de um site, quer melhorar suas campanhas, organizar sua
+          presença no Google ou colocar um projeto digital de pé, fale com a gente.
         </p>
 
         <div class="contact-actions">
@@ -300,7 +193,7 @@
             <svg class="whatsapp-icon" viewBox="0 0 32 32" aria-hidden="true">
               <path d="M16.02 3C9.4 3 4 8.36 4 14.94c0 2.24.62 4.34 1.7 6.14L3 29l8.13-2.63a13.1 13.1 0 0 0 4.89.95h.01c6.62 0 12.02-5.36 12.02-11.94C28.05 8.8 22.65 3 16.02 3Zm0 21.77h-.01a10.7 10.7 0 0 1-5.46-1.5l-.39-.23-4.83 1.56 1.58-4.68-.25-.4a9.83 9.83 0 0 1-1.53-5.28c0-5.44 4.45-9.86 9.92-9.86 2.65 0 5.14 1.03 7.01 2.9a9.72 9.72 0 0 1 2.9 6.94c0 5.44-4.45 9.85-9.94 9.85Zm5.45-7.38c-.3-.15-1.76-.86-2.03-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.65.07-.3-.15-1.24-.45-2.36-1.44a8.8 8.8 0 0 1-1.63-2.01c-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.6-.92-2.19-.24-.58-.49-.5-.67-.5-.17-.01-.37-.01-.57-.01-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.47 0 1.46 1.06 2.87 1.21 3.07.15.2 2.09 3.18 5.06 4.46.71.3 1.26.49 1.69.62.71.22 1.35.19 1.86.12.57-.09 1.76-.72 2-1.42.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35Z"/>
             </svg>
-            <span>Chamar no WhatsApp</span>
+            <span>Fale com a MEX pelo WhatsApp</span>
           </a>
 
           <ul class="social-links" role="list">
@@ -313,21 +206,63 @@
     </div>
   </section>
 
+  <!-- ===================== SOBRE NÓS (TIME) ===================== -->
+  <section class="section-light" id="sobre" aria-labelledby="sobre-title">
+    <div class="container">
+      <p class="eyebrow eyebrow--dark fade-in">o time</p>
+      <h2 id="sobre-title" class="section-title reveal-text"><span class="reveal-text-inner">Sobre nós</span></h2>
+
+      <div class="team fade-in">
+        <article class="team-card">
+          <div class="team-photo-wrap">
+            <img class="team-photo" src="Imagens/Hector-cropped.jpg" alt="Foto de Hector Zendejas Rebouças, sócio-fundador da MEX">
+          </div>
+          <div class="team-card-body">
+            <h3 class="team-name">Hector Zendejas Rebouças</h3>
+            <p class="team-role">Sócio-fundador</p>
+            <p class="team-bio">Formado em Ciência da Computação, atua na interseção entre tecnologia, inteligência artificial e negócios. Já aplicou soluções de IA em projetos para grandes nomes da indústria farmacêutica, incluindo Nestlé, J&amp;J e Pfizer, experiência que trouxe uma perspectiva de alto nível técnico e estratégico para sua atuação. Com vivência internacional entre México, Estados Unidos e Brasil e fluência em três idiomas, hoje aplica essa experiência a negócios de diferentes portes e setores.</p>
+          </div>
+        </article>
+
+        <article class="team-card">
+          <div class="team-photo-wrap">
+            <img class="team-photo" src="Imagens/Lucas-cropped.jpg" alt="Foto de Lucas Pessoa, sócio-fundador da MEX">
+          </div>
+          <div class="team-card-body">
+            <h3 class="team-name">Lucas Pessoa</h3>
+            <p class="team-role">Sócio-fundador</p>
+            <p class="team-bio">Formado em Direito e pós-graduado em Direito Digital, Lucas construiu sua carreira na área criativa, com mais de 10 anos de experiência prática em comunicação, design, audiovisual e marketing. Atua da estratégia à execução, passando por direção criativa, mídia paga, identidade visual, roteiros e produção audiovisual. Já participou de campanhas e projetos com alcance de milhões de pessoas, com experiência recorrente nos setores de construção civil, saúde e hotelaria.</p>
+          </div>
+        </article>
+
+        <article class="team-card">
+          <div class="team-photo-wrap">
+            <img class="team-photo" src="Imagens/Fidanza-cropped.jpg" alt="Foto de João Vitor Fidanza, sócio da MEX">
+          </div>
+          <div class="team-card-body">
+            <h3 class="team-name">João Vitor Fidanza</h3>
+            <p class="team-role">Sócio</p>
+            <p class="team-bio">Desenvolvedor de software com 5 anos de experiência em tecnologia, especializado em C# e .NET, com forte atuação em backend, APIs e arquiteturas de microsserviços. Nos últimos anos, consolidou atuação fullstack, trabalhando também com React e tecnologias web. Tem experiência com Python, Java, SQL Server, PostgreSQL e MongoDB, além de vivência em times ágeis e projetos internacionais, com comunicação diária em inglês.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
 </main>
 
 <!-- ===================== FOOTER ===================== -->
 <footer class="site-footer">
   <div class="container footer-inner">
     <a href="#topo" class="brand footer-brand" aria-label="mex — início">
-      <img src="Imagens/mex-icon.png" alt="" class="footer-brand-icon">
-      <span class="footer-brand-word">mex</span>
+      <img src="Imagens/mex-wordmark.png" alt="" class="footer-brand-wordmark">
     </a>
 
     <nav aria-label="Links rápidos" class="footer-nav">
       <a href="#o-que-fazemos">O que fazemos</a>
       <a href="#diferencial">Diferencial</a>
-      <a href="#sobre">Sobre nós</a>
       <a href="#contato">Contato</a>
+      <a href="#sobre">Sobre nós</a>
     </nav>
 
     <div class="footer-social">
@@ -339,10 +274,6 @@
   </div>
   <div class="container footer-bottom">
     <p>&copy; <span id="year"></span> mex. Todos os direitos reservados.</p>
-    <div class="footer-mascot" id="footerMascot" aria-hidden="true">
-      <span class="footer-mascot-tip">valeu por chegar até aqui!</span>
-      <img src="Imagens/mex-icon.png" alt="" class="footer-mascot-icon">
-    </div>
   </div>
 </footer>
 
