@@ -4,6 +4,22 @@
 
 document.addEventListener("DOMContentLoaded", () => {
 
+  const siteLinks = {
+    "whatsapp-contact": "https://wa.me/5585920032695?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20mex!",
+    "whatsapp-footer": "https://wa.me/5585920032695",
+    instagram: "#",
+    linkedin: "https://www.linkedin.com/company/mex-solu%C3%A7%C3%B5es-digitais/home/?viewAsMember=true"
+  };
+
+  document.querySelectorAll("[data-link-key]").forEach((link) => {
+    const key = link.dataset.linkKey;
+    const url = siteLinks[key];
+
+    if (url) {
+      link.href = url;
+    }
+  });
+
   const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   /* -------------------- Menu mobile -------------------- */
