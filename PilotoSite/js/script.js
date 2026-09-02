@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   /* -------------------- Scroll reveal (fade-in / títulos / grids) -------------------- */
-  const revealTargets = document.querySelectorAll(".fade-in, .reveal-text, .services-grid, .pillars-grid");
+  const revealTargets = document.querySelectorAll(".fade-in, .reveal-text, .services-grid, .pillars-grid, .section-light");
 
   if ("IntersectionObserver" in window && revealTargets.length) {
     const revealObserver = new IntersectionObserver(
